@@ -1,39 +1,39 @@
-# 📝 ToDo App with Firebase
+# Firebase Todo App
 
-A simple and functional ToDo list web application built using **HTML**, **CSS**, **JavaScript**, and **Firebase Realtime Database**. This project uses Firebase via the `<script>` CDN method and demonstrates CRUD operations in a clean and responsive interface.
+This is a **Todo application** built using **Firebase**, **HTML**, **CSS**, and **JavaScript**. The app allows users to add, view, and delete tasks, with all data stored in **Firebase Firestore** and synced in real-time across devices.
 
----
+## Live Demo
 
+You can check out the live version of the Todo app here:  
+[**Live Demo**](https://firebase-todoo.netlify.app/)
 
-## 🛠️ Built With
+## Features
 
-| Technology      | Purpose                                 |
-|----------------|------------------------------------------|
-| `HTML5`         | Markup structure                        |
-| `CSS3`          | Styling and layout                      |
-| `JavaScript (ES6)` | Logic and interactivity                |
-| `Firebase`      | Backend service (Realtime Database)     |
+- **Add Tasks**: Users can add new tasks to the todo list.
+- **Delete Tasks**: Tasks can be deleted once completed.
+- **Real-Time Sync**: All tasks are stored in **Firebase Firestore**, ensuring real-time updates across devices.
+- **Responsive Design**: The app is mobile-friendly and works on all screen sizes.
 
----
+## Tech Stack
 
-## 🔧 Features
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend**: Firebase Firestore (NoSQL Database)
+- **Hosting**: Netlify
 
-- ✅ Add new tasks
-- ✅ Mark tasks as completed
-- ✅ Delete tasks
-- ✅ Store and retrieve tasks from Firebase
-- ✅ Fully responsive layout
+## Installation
 
----
+### Prerequisites
 
-## 🔐 Firebase Integration (via CDN)
+Before you begin, ensure you have the following:
 
-Firebase was integrated using the traditional `<script>` method. This app uses:
+- A modern browser (Google Chrome, Firefox, etc.)
+- A Firebase account (to set up Firestore and Firebase Hosting)
 
-- Firebase App SDK (`v8.x`)
-- Firebase Realtime Database
-- Firebase SDK via CDN (not modular)
+### Steps to Run Locally
 
-```html
-<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>
+1. **Clone the Repository**
+
+   Clone the repo to your local machine using the following command:
+
+   ```bash
+   git clone https://github.com/your-username/todo-firebase.git
