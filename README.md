@@ -35,5 +35,5 @@ Before you begin, ensure you have the following:
 
    Clone the repo to your local machine using the following command:
 
-   ```bash
-  https://github.com/Muhammad-Arsalan-Khan/Firebase-todo.git
+   https://github.com/Muhammad-Arsalan-Khan/Firebase-todo.git```bash
+  
